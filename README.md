@@ -49,7 +49,7 @@ Este portafolio reúne proyectos **reales** que diseñé de manera independiente
 
 ## 📫 Contacto
 - 📍 Actualmente en Argentina  
-- 💼 [LinkedIn] https://linkedin.com/davidtolozaoficial/ 
+- 💼 [LinkedIn] https://linkedin.com/in/davidtolozaoficial/ 
 - ✉️ davidtoloza@gmail.com
 
 ---
