@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Salesforce — David Toloza</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>David Toloza</h1>
+    <p>Portafolio de proyectos Salesforce · 2025</p>
+  </header>
+
+  <main class="container">
+    <section class="project">
+      <h2>🏡 Gestión de Leads Inmobiliarios</h2>
+      <p><strong>Objetivo:</strong> Automatizar el seguimiento de leads en el rubro inmobiliario, mejorando la eficiencia comercial y la experiencia del cliente.</p>
+      <p><strong>Implementación:</strong></p>
+      <ul>
+        <li>Flujo en Salesforce con nodos de decisión según el estado del lead.</li>
+        <li>Correos automáticos personalizados con plantillas dinámicas.</li>
+        <li>Documentación clara del flujo y resolución de errores técnicos.</li>
+      </ul>
+   <figure class="screenshot">
+  <img id="record-triggered-flow-small" src="files/record-triggered-flow-small.png" alt="Configuración compacta del flujo disparado por actualización de Lead">
+  <figcaption>
+    Panel de configuración del flujo en Salesforce. Se activa al actualizar un registro del objeto Lead, optimizado para ejecutar acciones relacionadas. Esta captura muestra el inicio del flujo y sus parámetros clave.
+  </figcaption>
+</figure>
+  <figure class="screenshot">
+    <img src="files/nodo-lead-status.png" alt="Nodo de decisión Lead Status" id="lead-status-node">
+    <figcaption>Nodo de decisión que determina el camino del flujo según el estado del lead.</figcaption>
+  </figure>
+
+  <div class="image-row">
+  <figure>
+    <img src="files/email-diego.jpg" alt="Email de cierre respetuoso a Diego">
+    <figcaption>
+      Email automático enviado a leads que decidieron no avanzar. El mensaje agradece el interés, respeta la decisión y deja abierta la posibilidad de retomar el contacto en el futuro.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src="files/email-sara.jpeg" alt="Email de felicitación a Sara">
+    <figcaption>
+      Email automático enviado a leads calificados que avanzan en el proceso. Felicita al cliente por dar el siguiente paso y ofrece acompañamiento personalizado.
+    </figcaption>
+  </figure>
+</div>
+
+    </section>
+
+    <section class="project">
+      <h2>🛒 Seguimiento Post-Venta para E-commerce</h2>
+      <p><strong>Objetivo:</strong> Automatizar el contacto con clientes luego de una compra, fomentando la fidelización y el feedback.</p>
+      <p><strong>Implementación:</strong></p>
+      <ul>
+        <li>Flujo activado por orden completada, con lógica condicional avanzada.</li>
+        <li>Correos automáticos: agradecimiento, encuesta, recomendaciones.</li>
+        <li>Uso de campos dinámicos y segmentación por tipo de producto.</li>
+      </ul>
+    </section>
+
+    <section class="project">
+      <h2>🧩 Onboarding de Clientes para Empresas de Servicios</h2>
+      <p><strong>Objetivo:</strong> Automatizar el proceso de bienvenida y activación de nuevos clientes, asegurando una experiencia clara y profesional.</p>
+      <p><strong>Implementación:</strong></p>
+      <ul>
+        <li>Flujo activado al crear un nuevo cliente, con nodos según tipo de servicio.</li>
+        <li>Correos automáticos con instrucciones y recursos personalizados.</li>
+        <li>Documentación pensada para escalabilidad y mantenimiento.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 David Toloza · Tigre, Buenos Aires</p>
+  </footer>
+</body>
+</html>
